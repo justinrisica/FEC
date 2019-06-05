@@ -38,13 +38,13 @@ input::placeholder {
 }
 
 #fromInput {
-  background-image: url(/images/ls-icon.png), url(/images/x-glyph.png);
+  background-image: url(images/ls-icon.png), url(images/x-glyph.png);
   background-repeat: no-repeat;
   background-position: 90%, 98%;
 }
 
 #toInput {
-  background-image: url(/images/x-glyph.png);
+  background-image: url(images/x-glyph.png);
   background-repeat: no-repeat;
   background-position: 98%;
 }
