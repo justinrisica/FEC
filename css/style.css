@@ -14,7 +14,7 @@ main {
   height: 667px;
 }
 
-#inputContainer {
+.inputContainer {
   width: 100%;
   padding-left: 12%;
   margin: 0 auto;
@@ -28,7 +28,7 @@ input {
   position: inherit;
   font-size: 14px;
   font-weight: lighter;
-  background-color: #D8D8D8;
+  background-color: .D8D8D8;
   border-radius: 6px;
   height: 28px;
 }
@@ -37,19 +37,19 @@ input::placeholder {
   padding: 2%;
 }
 
-#fromInput {
-  background-image: url(images/ls-icon.png), url(images/x-glyph.png);
+.fromInput {
+  background-image: url(../images/ls-icon.png), url(../images/x-glyph.png);
   background-repeat: no-repeat;
   background-position: 90%, 98%;
 }
 
-#toInput {
-  background-image: url(images/x-glyph.png);
+.toInput {
+  background-image: url(../images/x-glyph.png);
   background-repeat: no-repeat;
   background-position: 98%;
 }
 
-#navTitle {
+.navTitle {
   display:inline;
   position: relative;
   text-align: center;
@@ -57,24 +57,24 @@ input::placeholder {
   padding-left: 40%;
 }
 
-#chevron {
+.chevron {
   float: left;
   display: inline;
   padding-right: 5px;
 }
 
-#dashboard {
+.dashboard {
   /*padding-bottom: px;*/
   display: inline;
 }
 
-#subtitle {
+.subtitle {
   font-size: 14px;
   text-align: center;
   display: inline;
   padding-left: 5%;
 }
-#statusBar {
+.statusBar {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -95,12 +95,12 @@ nav {
   position: inherit;
 }
 
-#statusBar {
+.statusBar {
   position: center top 5px;
   background-repeat: no-repeat;
 }
 
-#bus {
+.bus {
   font-weight: bold;
   display: inline-block;
   padding-left: 10px;
@@ -110,7 +110,7 @@ p {
   display: inline-block;
 }
 
-#arrivingNow {
+.arrivingNow {
   color: #FF3A3A;
   font-weight: bold;
   display: inline-block;
@@ -118,13 +118,13 @@ p {
   padding-right: 10px;
 }
 
-#arrivalTime {
+.arrivalTime {
   font-weight: bold;
   float: right;
   padding-right: 10px;
 }
 
-#direction {
+.direction {
   font-size: 14px;
   font-style: italic;
   text-transform: capitalize;
@@ -132,7 +132,7 @@ p {
   padding-left: 10px;
 }
 
-#schedule {
+.schedule {
   font-size: 14px;
   display: inline;
   float: right;
