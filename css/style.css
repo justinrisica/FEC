@@ -113,11 +113,6 @@ nav {
   padding-left: 10px;
 }
 
-.routeNA {
-  color: #AEADAD;
-
-  display: inline-block;
-}
 
 p {
   display: inline-block;
@@ -132,12 +127,6 @@ p {
   padding-right: 10px;
 }
 
-.arrivalTimeNA {
-  color: #AEADAD;
-  font-weight: bold;
-  float: right;
-  padding-right: 10px;
-}
 
 .arrivalTime {
   font-weight: bold;
@@ -145,14 +134,6 @@ p {
   padding-right: 10px;
 }
 
-.directionNA {
-  color: #AEADAD;
-  font-size: 14px;
-  font-style: italic;
-  text-transform: capitalize;
-  display: inline;
-  padding-left: 10px;
-}
 
 .direction {
   font-size: 14px;
